@@ -12,7 +12,7 @@ angular.module('yapp')
 
     $scope.submit = function() {
 
-      $location.path('/main');
+      $location.path('/main/learn');
 
       return false;
     }
