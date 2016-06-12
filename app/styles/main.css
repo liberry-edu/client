@@ -1,4 +1,9 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500);
+@import "../fonts/roboto/Roboto-Black.ttf";
+@import "../fonts/roboto/Roboto-Bold.ttf";
+@import "../fonts/roboto/Roboto-Light.ttf";
+@import "../fonts/roboto/Roboto-Medium.ttf";
+@import "../fonts/roboto/Roboto-Regular.ttf";
+@import "../fonts/roboto/Roboto-Thin.ttf";
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
@@ -7988,10 +7993,6 @@ button.close {
 }
 
 .login-page {
-  overflow: auto;
-  display: table;
-  width: 100%;
-  height: 100%;
   background: #1abc9c;
   color: #fff;
   padding: 3em;
@@ -8053,7 +8054,6 @@ button.close {
 
 .login-page .img-container {
   text-align: right;
-  width: 40%;
   position: relative;
 }
 
