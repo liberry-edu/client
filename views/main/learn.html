@@ -15,8 +15,9 @@
 		</div>
 		<div class="jumbotron" style="margin-top:0px; margin-bottom:0px;">
 			<div class="container-fluid">
+
 			<!-- <div class="row"> -->
-				<div ng-repeat="move in topBucket" class="col-xs-12 col-md-6 col-lg-4 row"  style="cursor:pointer; margin-bottom:50px;" ui-sref='learn.category({categoryId:move.key})'>
+				<!--div ng-repeat="move in topBucket" class="col-xs-12 col-md-6 col-lg-4 row"  style="cursor:pointer; margin-bottom:50px;" ui-sref='learn.category({categoryId:move.key})'>
 					<div class="col-lg-4 col-md-4 col-xs-4">
 						<img ng-src="{{move.image}}" width="100%" style="max-width: 90px;"/>
 					</div>
@@ -31,8 +32,12 @@
 						{{move.media_consumed}} / {{move.media_total}} videos watched
 					</span>
 					</div>
-				</div>
-			<!-- </div> -->
+				</div-->
+
+				<!-- Using the directive here to avoid code repetition. It has to make sure that the $scope.category is
+						populated on network request from server. -->
+				<render-content></render-content>
+
 			</div>
 		</div>
 	</snap-content>	
