@@ -25,7 +25,8 @@ var states = [
 angular.module('yapp', [
                 'ui.router',
                 'snap',
-                'ngAnimate'
+                'ngAnimate',
+                'yDirectives'
             ])
         .config(function($stateProvider, $urlRouterProvider) {
             $urlRouterProvider.when('/main', '/main/learn');

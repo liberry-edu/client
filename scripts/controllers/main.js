@@ -183,7 +183,7 @@ angular.module('yapp')
          /*
             Right now, it is static. This list of subcategories will come from server.
           */
-         $scope.subCategory = [
+         $scope.category = [
              {"key": "1232145",
                  "name": "Video: Meet Rahul ",
                  "imageurl":"images/agriculture.png",
