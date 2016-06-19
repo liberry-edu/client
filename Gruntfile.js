@@ -64,7 +64,7 @@ module.exports = function (grunt) {
       server: '.tmp'
     },
 
-    
+
 
     // Run some tasks in parallel to speed up the build process
     concurrent: {
@@ -178,7 +178,7 @@ module.exports = function (grunt) {
       dist: {
         src: [
           '<%= yeoman.dist %>/styles/{,*/}*.css',
-          '<%= yeoman.dist %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}',
+          //'<%= yeoman.dist %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}',
           '<%= yeoman.dist %>/styles/fonts/*'
         ]
       }
