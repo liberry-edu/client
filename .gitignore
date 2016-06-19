@@ -1,9 +1,8 @@
-<<<<<<< HEAD
 *.pdf
 *.doc
 *.mp4
 .idea
-=======
+
 /node_modules
 /dist
 /.tmp
