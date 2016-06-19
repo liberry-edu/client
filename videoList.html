@@ -1,0 +1,250 @@
+<!--A Design by W3layouts 
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>EAC : Employment Awareness Course</title>
+<!-- jQuery-->
+
+<script type="text/javascript" src="js/log4javascript.js"></script>
+<script type="text/javascript">
+	var log = log4javascript.getDefaultLogger();
+</script>
+<script src="js/jquery.min.js"></script>
+<!-- Custom Theme files -->
+
+<script>
+    var ajaxAppender = new log4javascript.AjaxAppender(URL);
+	log.addAppender(ajaxAppender);
+</script>
+<!--theme-style-->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />	
+<!--//theme-style-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Kappe Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--fonts-->
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900' rel='stylesheet' type='text/css'>
+
+<!--//fonts-->
+</head>
+<body>
+	<div class="header">
+		<div class="header-left">
+			<div class="logo">
+				<a href="index.html"><img src="images/PaceLogo.jpg" alt=""></a>
+			</div>
+			<div class="top-nav">
+				<ul >
+					<li class="active" ><a href="index1.html" >HOME</a></li>
+					<li><a href="about.html" class="black1"> ABOUT</a></li>
+				</ul>
+			</div>
+			<p class="footer-class">Template by  <a href="#">W3layouts</a> </p>
+		</div>
+		<!---->
+		<div class="header-top">
+			<div class="logo-in">
+				<a href="index.html"><img src="images/logo.png" alt=""></a>
+			</div>
+			<div class="top-nav-in">
+			<span class="menu"><img src="images/menu.png" alt=""> </span>
+				<ul >
+					<li class="active" ><a href="index1.html" >HOME</a></li>
+					<li><a href="about.html" class="black1"> ABOUT</a></li>
+				</ul>
+				<script>
+					$("span.menu").click(function(){
+						$(".top-nav-in ul").slideToggle(500, function(){
+						});
+					});
+			</script>
+
+			</div>
+			<div class="clear"> </div>
+		</div>
+			<!---->
+		<div class="content">
+                    
+			<div class="blog" id="videoList">
+				
+					
+				<div class="clear"> </div>
+				</div>
+			
+			</div>
+			
+		</div>
+		<div class="clear"> </div>
+				<p class="footer-class-in">Copyright © 2015 Kappe Template by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
+
+	</div>
+<script src="js/script.js" type="text/javascript"></script>
+</body>
+
+<script>
+    var hash = getUrlVars();
+    vidLink = unescape(hash["nav"]);
+    var vidList;
+    var pageVar;
+    var title;
+    
+    var navHolder = vidLink.split('/');
+    if(navHolder[1]=="Automotive" && navHolder[2]=="Camp and Course Trailers!"){
+        vidList = autoActVC;
+        title = autoActVL;
+        pageVar = "vidPlayer.html?vidVar=";
+        
+    };
+    if(navHolder[1]=="Automotive" && navHolder[2]=="Learn about the Industry!"){
+        vidList = autoOriVL;
+        title = autoOriVL;
+        pageVar = "vidPlayer.html?vidVar=";
+    };
+    if(navHolder[1]=="Automotive" && navHolder[2]=="Stories of Superstars!"){
+        vidList = autoSucVL;
+        title = autoSucVL;
+        pageVar = "vidPlayer.html?vidVar=";
+    };
+    if(navHolder[1]=="Automotive" && navHolder[2]=="See some practicals!"){
+        vidList = autoSylVL;
+        title = autoSylVC;
+        pageVar = "vidPlayer.html?vidVar=";
+    };
+    if(navHolder[1]=="Beauty" && navHolder[2]=="Camp and Course Trailers!"){
+        vidList = beauActVC;
+        title = beauActVL;
+        pageVar = "vidPlayer.html?vidVar=";
+    };
+    if(navHolder[1]=="Beauty" && navHolder[2]=="Learn about the Industry!"){
+        vidList = beauOriVL;
+        title = beauOriVL;
+        pageVar = "vidPlayer.html?vidVar=";
+    };
+    if(navHolder[1]=="Beauty" && navHolder[2]=="Stories of Superstars!"){
+        vidList = beauSucVL;
+        title = beauSucVL;
+        pageVar = "vidPlayer.html?vidVar=";
+    };
+    if(navHolder[1]=="Beauty" && navHolder[2]=="See some practicals!"){
+        vidList = beauSylVL;
+        title = beauSylVL;
+        pageVar = "vidPlayer.html?vidVar=";
+    };
+    if(navHolder[1]=="Healthcare - Nursing" && navHolder[2]=="Camp and Course Trailers!"){
+        vidList = bedActVC;
+        title = bedActVL;
+        pageVar = "vidPlayer.html?vidVar=";
+        
+    };
+    if(navHolder[1]=="Healthcare - Nursing" && navHolder[2]=="Learn about the Industry!"){
+        vidList = bedOriVL;
+        title = bedOriVL;
+        pageVar = "vidPlayer.html?vidVar=";
+    };
+    if(navHolder[1]=="Healthcare - Nursing" && navHolder[2]=="Stories of Superstars!"){
+        vidList = bedSucVL;
+        title = bedSucVL;
+        pageVar = "vidPlayer.html?vidVar=";
+    };
+    if(navHolder[1]=="Healthcare - Nursing" && navHolder[2]=="See some practicals!"){
+        vidList = bedSylVL;
+        title = bedSylVL;
+        pageVar = "vidPlayer.html?vidVar=";
+    };
+    if(navHolder[1]=="Construction" && navHolder[2]=="Camp and Course Trailers!"){
+        vidList = conActVC;
+        title = conActVL;
+        pageVar = "vidPlayer.html?vidVar=";
+    };
+    if(navHolder[1]=="Construction" && navHolder[2]=="Learn about the Industry!"){
+        vidList = conOriVL;
+        title = conOriVL;
+        pageVar = "vidPlayer.html?vidVar=";
+    };
+    if(navHolder[1]=="Construction" && navHolder[2]=="Stories of Superstars!"){
+        vidList = conSucVL;
+        title = conSucVL;
+        pageVar = "vidPlayer.html?vidVar=";
+    };
+    if(navHolder[1]=="Construction" && navHolder[2]=="See some practicals!"){
+        vidList = conSylVC;
+        title = conSylVL;
+        pageVar = "vidPlayer.html?vidVar=";
+    };
+    if(navHolder[1]=="Electrician" && navHolder[2]=="Camp and Course Trailers!"){
+        vidList = elecActVC;
+        title = elecActVL;
+        pageVar = "vidPlayer.html?vidVar=";
+        
+    };
+    if(navHolder[1]=="Electrician" && navHolder[2]=="Learn about the Industry!"){
+        vidList = elecOriVL;
+        title = elecOriVL;
+        pageVar = "vidPlayer.html?vidVar=";
+    };
+    if(navHolder[1]=="Electrician" && navHolder[2]=="Stories of Superstars!"){
+        vidList = elecSucVL;
+        title = elecSucVL;
+        pageVar = "vidPlayer.html?vidVar=";
+    };
+    if(navHolder[1]=="Electrician" && navHolder[2]=="See some practicals!"){
+        vidList = elecSylVC;
+        title = elecSylVL;
+        pageVar = "vidPlayer.html?vidVar=";
+    };
+    if(navHolder[1]=="Hospitality" && navHolder[2]=="Camp and Course Trailers!"){
+        vidList = hospActVC;
+        title = hospActVL;
+        pageVar = "vidPlayer.html?vidVar=";
+    };
+    if(navHolder[1]=="Hospitality" && navHolder[2]=="Learn about the Industry!"){
+        vidList = hospOriVL;
+        title = hospOriVL;
+        pageVar = "vidPlayer.html?vidVar=";
+    };
+    if(navHolder[1]=="Hospitality" && navHolder[2]=="Stories of Superstars!"){
+        vidList = hospSucVL;
+        title = hospSucVL;
+        pageVar = "vidPlayer.html?vidVar=";
+    };
+    if(navHolder[1]=="Hospitality" && navHolder[2]=="See some practicals!"){
+        vidList = hospSylVL;
+        title = hospSylVC;
+        pageVar = "vidPlayer.html?vidVar=";
+    };
+    if(navHolder[0]=="assessment"){
+        vidList = assessment;
+        title = assessment;
+        pageVar = "videos/";
+    };
+    if(navHolder[0]=="English and Life Skills"){
+        vidList = softSkillVL;
+        title = softSkillVC;
+        pageVar = "vidPlayer.html?vidVar=";
+    };
+    
+//Populate Video List
+for (var c in vidList) {
+    var newElement = document.createElement('div');
+    newElement.id = vidList[c]; 
+    newElement.className = "wide";
+    
+    newElement.innerHTML = '<div class="col-d">'+
+            '<a href="'+pageVar+''+ vidLink +'/'+ vidList[c] +'" ><img src="images/play.png"  /></a>'+
+            '<div class="blog-in">'+
+            '<h5><a href="vidPlayer.html?vidVar='+ vidLink +'/'+ vidList[c]+'">'+ title[c] +'</a></h5>'+
+            '<p>'+ vidList[c] +'</p>'+
+						'</div>'+
+					'</div>';
+    var container = document.getElementById('videoList');
+            container.appendChild(newElement);
+}
+</script>
+</html>
